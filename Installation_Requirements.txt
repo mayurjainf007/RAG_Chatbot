@@ -1,0 +1,28 @@
+### Installation Requirements for RAG-Based Chatbot
+
+# Python Dependencies (backend/requirements.txt)
+fastapi
+uvicorn
+langchain
+openai
+weaviate-client
+kafka-python
+pyspark
+sqlalchemy
+psycopg2-binary
+pandas
+
+# Node.js Dependencies (frontend/package.json extract)
+"dependencies": {
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0",
+  "@shadcn/ui": "latest"
+}
+
+# System Dependencies
+- Python 3.9+
+- Node.js 16+
+- Docker & Docker Compose
+- PostgreSQL 13+
+- Apache Kafka
+- Apache Spark
